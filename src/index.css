@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --Primary: "#272052";
+  --Secondary: "AF7EE7";
+
+  --TextPrimary: "#ffffff";
+  --TextSecondary: "#000000";
+  --Accent: "#5F27B9";
+
+  --Border: "#D8D5EA";
+}
+
+#LoginPage {
+  background-image: url("./assets/background/login.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
